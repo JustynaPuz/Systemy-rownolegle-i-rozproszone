@@ -17,7 +17,7 @@ MAX_ITER = 2000  # Bezpiecznik pętli
 
 
 # ==============================================================================
-# FUNKCJA DO KOMUNIKACJI (SERCE MPI)
+# FUNKCJA DO KOMUNIKACJI
 # ==============================================================================
 
 def distributed_evaluate(comm, simplex, func_id):
